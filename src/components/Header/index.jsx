@@ -89,11 +89,7 @@ export default function Header() {
         <Toolbar>
           <CodeIcon className={classes.menuButton} />
 
-          <Typography variant="h6" className={classes.title}>
-            <Link className={classes.link} to="/">
-              EZ SHOP
-            </Link>
-          </Typography>
+        
 
           <NavLink className={classes.link} to="/todos">
             <Button color="inherit">Todos</Button>
